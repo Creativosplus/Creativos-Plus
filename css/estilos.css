@@ -1,4 +1,5 @@
 /* Helper classes */
+ 
 .texto-verde {
     color: #24b35a !important;
 }
@@ -25,6 +26,22 @@
 
 .bg-blanco {
     background: #ffffff !important;
+}
+
+.btn-verde  {
+    background: #24b35a !important;
+}
+
+.button.button-3d:hover {
+    background-color: #24b35a !important;
+}
+
+.btn-azul {
+    background: #014e6c !important;
+}
+
+.colorup > .button.button-3d:hover {
+    background-color: #014e6c !important;
 }
 
 /* Fin Helper classes */
