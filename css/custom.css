@@ -1,0 +1,265 @@
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 300;
+    src: url('../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 700;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+/* Colores  */
+ 
+.texto-verde {
+    color: #24b35a !important;
+}
+
+.texto-blanco {
+    color: #fff !important;
+}
+
+.texto-gris {
+    color: #999 !important;
+}
+
+.texto-azul {
+    color: #014e6c !important;
+}
+
+.bg-azul {
+    background: #014e6c !important;
+}
+
+.bg-verde {
+    background: #24b35a !important;
+}
+
+.bg-blanco {
+    background: #ffffff !important;
+}
+
+.btn-verde  {
+    background: #24b35a !important;
+}
+
+.btn-azul {
+    background-color: #014e6c !important;
+}
+
+.button.button-3d:hover {
+    background-color: #014e6c !important;
+    opacity: 0.9;
+}
+
+/* Header */
+
+#header.full-header #primary-menu>ul {
+    border-right: none !important;
+}
+
+.menuLinks a {
+    font-size: 15px !important;
+    color: #24b35a !important;
+}
+
+/* .menuLinks a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #24b35a;
+    transition: width .3s;
+}
+
+.menuLinks a:hover::after {
+    width: 100%;
+}  */
+
+.heading-block h2 {
+    text-transform: initial !important;
+    font-size: 28px !important;
+    font-weight: initial !important;
+	letter-spacing: initial !important;
+}
+
+.heading-block h3 {
+    text-transform: initial !important;
+    font-size: 28px !important;
+    font-weight: initial !important;
+	letter-spacing: initial !important;
+}
+
+#heading-block-1 .heading-block:after {
+    border-top: 2px solid #24b35a !important;
+}
+
+#servicios .heading-block:after {
+    border-top: 2px solid #24b35a !important;
+}
+
+
+#trabajos .heading-block:after {
+    border-top: 2px solid #24b35a !important;
+}
+
+#testimonios .heading-block:after {
+    border-top: 2px solid #24b35a !important;
+}
+
+.testi-meta:before {
+    content: '\2013';
+    color: #24B35A;
+}
+
+#nosotros .heading-block:after {
+    border-top: 2px solid #fff;
+}
+
+#promoBox1 .heading-block:after {
+    border-top: none;
+}
+
+#promoBox2 .heading-block:after {
+    border-top: none;
+}
+
+#promoBox3 .heading-block:after {
+    border-top: none;
+}
+
+#footer .heading-block:after {
+    border-top: 2px solid #fff;
+}
+
+.feature-box.fbox-center .fbox-icon i {
+    font-size: 42px;
+    line-height: 96px;
+    background-color: #014e6c;
+}
+
+.fbox-effect .fbox-icon i:hover, .fbox-effect:hover .fbox-icon i {
+    background-color: #24b35a !important;
+}
+
+.fbox-effect .fbox-icon i:after {
+    box-shadow: 0 0 0 2px #24b35a !important;
+}
+
+.feature-box .fbox-center:not(.fbox-bg) h3:after {
+    border-top: none !important;
+}
+
+.rotarImg {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+#carrusel1 .slider-caption, .flex-caption {
+    max-width: 1000px !important;
+    left: -215px !important;
+}
+
+#carrusel2 .slider-caption, .flex-caption {
+    max-width: initial;
+}
+
+#carrusel2 .slider-caption.slider-caption-right {
+    right: -250px !important;
+    top: 260px !important;
+}
+
+#carrusel3 .slider-caption, .flex-caption {
+    max-width: 1000px !important;
+    left: -215px !important;
+}
+
+
+#carrusel1 .slider-caption h2 {
+    font-size: 3rem !important;
+    text-transform: initial !important;
+    font-weight: 400 !important;
+    left: -215px !important;
+}
+
+#carrusel2 .slider-caption h2 {
+    font-size: 3rem !important;
+    text-transform: initial !important;
+    font-weight: 400 !important;
+}
+
+#carrusel3 .slider-caption h2 {
+    font-size: 3rem !important;
+    text-transform: initial !important;
+    font-weight: 400 !important;
+}
+
+.slider-caption.slider-caption-right {
+    left: auto;
+    right: -278px;
+}
+
+
+/* #carrusel3 .slider-caption h2 {
+    font-size: 3rem !important;
+    text-transform: initial !important;
+    font-weight: 400 !important;
+    left: -200px !important;
+} */
+
+#carrusel1 {
+    background-image: url('../images/slider/swiper/Paginasweb.jpg');
+}
+
+#carrusel2 {
+    background-image: url('../images/slider/swiper/Marketing.jpg');
+}
+
+#carrusel3 {
+    background-image: url('../images/slider/swiper/Disenografico.jpg');
+    background-position: center top;
+}
+
+label {
+    display: inline-block !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    text-transform: initial !important;
+    letter-spacing: 1px !important;
+    color: #fff !important;
+    margin-bottom: 10px !important;
+    cursor: initial !important;
+}
+
+
+#copyrights {
+    background-color: #014059 !important;
+}
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+    
+}
+
+/*tablets*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 576px) and (max-width: 780px) {
+    
+}
+
+/* fin tablets */

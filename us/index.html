@@ -2,20 +2,25 @@
 <html dir="ltr" lang="es">
 <head>
     <meta http-equiv="content-type" content="text/html" charset="utf-8"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/style.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/estilos.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/swiper.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/dark.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/font-icons.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/animate.css" type="text/css"/>
-    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/responsive.css" type="text/css"/>
-    <link rel="icon" type="image/png" sizes="192x192" href="../images/android-icon-192x192.png">
+    <link rel="stylesheet" href="../css/animate.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="../css/custom.css" type="text/css">
+    <link rel="stylesheet" href="../css/dark.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-icons.css" type="text/css">
+    <link rel="stylesheet" href="../css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/swiper.css" type="text/css">
+    
+    <link rel="stylesheet" href="../css/responsive.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="../css/colors.css" type="text/css">
+    <link rel="stylesheet" href="../css/colors.php?color=24B35A" type="text/css"/>
+
+    <link rel="icon" type="image/png" href="../images/logos/icono.png">
     <title>CreativosPlus | Agencia Digital </title>
+
     <meta property="og:type" content="website"/>
     <meta property="og:description" content=""/>
     <meta name="description" content="Somos una empresa digital especializada en el desarrollo web, marketing digital y diseño grafico brindando soluciones digitales."/>
@@ -31,7 +36,7 @@
     <meta name="Classification" content="commercial">
     <meta name="Usergroup" content="Public">
     <meta content="yes" http-equiv="public">
-    <meta property="og:url" content="http://www.creativosplus.com"/>
+    <meta property="og:url" content="https://www.creativosplus.com"/>
     <meta name="googlebot" content="all">
     <meta NAME="rating" CONTENT="General">
     <meta name="audience" content="All">
@@ -52,47 +57,66 @@
 
 </head>
 <body class="stretched">
-    <header>
-        <nav>
-            <div class="menu-icon">
-                <a href="#">
-                    <img src="../images/logos/logo.png">
-                </a>
-                <a id="navResponsive"><i class="fa fa-plus"></i></a>
+    <header id="header" class="full-header">
+        <div id="header-wrap">
+            <div class="container clearfix">
+                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                <div id="logo">
+                    <a href="index.html" class="standard-logo" data-dark-logo="../images/logos/logo.png">
+                        <img src="../images/logos/logo.png" alt="Canvas Logo">
+                    </a>
+                    <a href="index.html" class="retina-logo" data-dark-logo="../images/logos/logo.png">
+                        <img src="../images/logos/logo.png" alt="Canvas Logo">
+                    </a>
+                </div>
+                <nav id="primary-menu">
+                    <ul>
+                        <li class="menuLinks">
+                            <a href="" data-scrollto="#nosotros" data-offset="70" data-easing="easeInOutExpo" data-speed="1200">
+                                <div>Nosotros</div>
+                            </a>
+                        </li>
+                        <li class="menuLinks">
+                            <a href="" data-scrollto="#servicios" data-offset="35" data-easing="easeInOutExpo" data-speed="1200">
+                                <div>Servicios</div>
+                            </a>
+                        </li>  
+                        <li class="menuLinks">
+                            <a href="" data-scrollto="#trabajos" data-offset="35" data-easing="easeInOutExpo" data-speed="1200">
+                                <div>Trabajos</div>
+                            </a>
+                        </li>  
+                        <li class="menuLinks">
+                            <a href="" data-scrollto="#testimonios" data-offset="35" data-easing="easeInOutExpo" data-speed="1200">
+                                <div>Testimonios</div>
+                            </a>
+                        </li>  
+                        <li class="menuLinks">
+                            <a href="" data-scrollto="#footer" data-offset="70" data-easing="easeInOutExpo" data-speed="1200"> 
+                                <div>Contacto</div>
+                            </a>
+                        </li>
+                        <li class="menuLinks">
+                            <a href="">
+                                <div>Idioma</div>
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="../index.html">
+                                        <div>Español</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index.html">
+                                        <div>Ingles</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>                  
+                    </ul>
+                </nav>
             </div>
-            <ul class="menuToggle">
-                <li class="menuLinks">
-                    <a href="#" data-scrollto="#nosotros" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">About us</a>
-                </li>
-                <li class="menuLinks">
-                    <a href="#" data-scrollto="#servicios" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">Services</a>
-                </li>
-                <li class="menuLinks">
-                    <a href="#"  data-scrollto="#trabajos" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">Works</a>
-                </li>
-                <span class="padding-img">
-                    <a href="#">
-                        <img src="../images/logos/logo.png" alt="">
-                    </a>
-                </span>
-                <li class="menuLinks">
-                    <a href="#" data-scrollto="#testimonios" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">Testimonials</a>
-                </li>
-                <li class="menuLinks">
-                    <a href="#" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">Contact</a>
-                </li>
-                <li class="menuLinks" id="dropdown">
-                    <a href="#">
-                        Language 
-                        <i class="fas fa-caret-down"></i>
-                    </a>
-                    <div class="dropdown-content-english">
-                        <a href="index.html">English</a>
-                        <a href="../index.html">Spanish</a>
-                    </div>
-                </li> 
-            </ul>
-        </nav>
+        </div>
     </header>
     <section id="slider" class="slider-element slider-parallax swiper_wrapper clearfix" data-autoplay="3500" data-effect="slide" data-loop="true" data-speed="400" data-progress="true">
         <div class="slider-parallax-inner">
@@ -100,98 +124,104 @@
                 <div class="swiper-wrapper">
                     <div id="carrusel1" class="swiper-slide dark">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-left slide1">
-                                <h2 data-animate="fadeInUp" class="texto-blanco">Creativos Plus, diseñamos <br class="displayResponsive"> tu identidad con un click.</h2>
-                                <!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200"></p> -->
+                            <div class="slider-caption slider-caption-left">
+                                <h2 class="texto-blanco">
+                                    CreativosPlus, diseñamos tu identidad con un click.
+                                </h2>
                             </div>
                         </div>
                     </div>
                     <div id="carrusel2" class="swiper-slide dark">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right slide2">
-                                <h2 data-animate="fadeInUp" class="texto-blanco">Conectarse con los clientes es <br class="displayResponsive"> una prioridad.</h2>
-                                <!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200"></p> -->
+                            <div class="slider-caption slider-caption-right">
+                                <h2 class="texto-blanco">
+                                    Conectarse con los clientes es una prioridad.
+                                </h2>
                             </div>
                         </div>
                     </div>
                     <div id="carrusel3" class="swiper-slide">
                         <div class="container clearfix">
-                            <div class="slider-caption slide3">
-                                <h2 data-animate="fadeInUp" class="texto-blanco">Un buen diseño te <br class="displayResponsive"> diferenciará del resto.</h2>
-                                <!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200"></p> -->
-                            </div>
-                        </div>
-                    </div>
-                      <div id="carrusel4" class="swiper-slide">
-                        <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right slide4">
-                                <h2 data-animate="fadeInUp" class="texto-blanco">El futuro está en <br class="displayResponsive"> las aplicaciones móviles.</h2>
-                                <!-- <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200"></p> -->
+                            <div class="slider-caption">
+                                <h2 class="texto-blanco">
+                                    Un buen diseño te diferenciará del resto.
+                                </h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider-arrow-left"><i class="fas fa-angle-left"></i></div>
-                <div class="slider-arrow-right"><i class="fas fa-angle-right"></i></div>
+                <div class="slider-arrow-left">
+                    <i class="icon-angle-left"></i>
+                </div>
+                <div class="slider-arrow-right">
+                    <i class="icon-angle-right"></i>
+                </div>
             </div>
         </div>
     </section>
     <section id="content">
         <div class="si-sticky d-none d-lg-block">
-            <a target="_blank" href="https://www.facebook.com/Creativos-Plus-635921623415017/" class="social-icon si-facebook si-dark" data-animate="bounceInLeft">
+            <a target="_blank" href="https://www.facebook.com/Creativos-Plus-635921623415017/" class="social-icon si-facebook si-colored" data-animate="bounceInLeft">
                 <i class="icon-facebook"></i>
                 <i class="icon-facebook"></i>
             </a>
-            <a target="_blank" href="https://www.instagram.com/creativosplus/" class="social-icon si-instagram si-dark" data-animate="bounceInLeft">
+            <a target="_blank" href="https://www.instagram.com/creativosplus/" class="social-icon si-instagram si-colored" data-animate="bounceInLeft">
                 <i class="icon-instagram2"></i>
                 <i class="icon-instagram2"></i>
             </a>
-            <a target="_blank" href="https://twitter.com/creativosplus/?lang=es" class="social-icon si-twitter si-dark" data-animate="bounceInLeft">
-                <i class="icon-twitter"></i>
-                <i class="icon-twitter"></i>
-            </a>
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=584145069150&text=Hola,%20quiero%20contactarlos" class="social-icon si-spotify si-dark" data-animate="bounceInLeft">
-                <i style="font-size:25px; margin-top:4px;" class="fab fa-whatsapp"></i>    
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=584145069150&text=Hola,%20quiero%20contactarlos" class="social-icon si-spotify si-colored" data-animate="bounceInLeft">
+                <i class="icon-whatsapp"></i>
+                <i class="icon-whatsapp"></i>
             </a>
         </div>
-        <div class="section nomargin noborder bg-blanco">
+        <div class="section nomargin noborder" id="heading-block-1">
             <div class="container center clearfix">
-                <div class="row">
-                    <div class="col-lg-12 text-center" data-animate="fadeIn" data-delay="200">
-                        <h3 class="textoTituloVerde"><b>Encontrar tu identidad</b>, nunca fue tan fácil.</h3>
-                    </div>
+                <div class="heading-block">
+                    <h2 class="texto-verde"><b>Encontrar tu identidad</b>, nunca fue tan fácil.</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6 mt-5 m-responsive">
-                        <div class="feature-box fbox-center fbox-effect nobottomborder">
-                            <div class="fbox-icon" data-animate="bounceIn" data-delay="500">
-                                <i class="fas fa-lightbulb"></i>
-                            </div>
-                            <p class="parrafo1" data-animate="fadeIn" data-delay="600"><b>Conocemos tu idea,</b> aprendemos a visualizar lo que quieres para tu negocio.</p>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="feature-box fbox-center fbox-effect">
+							<div class="fbox-icon">
+								<a href="#">
+                                    <i class="icon-lightbulb i-alt"></i>
+                                </a>
+							</div>
+							<h3 class="texto-verde">Conocemos tu idea</h3>
+							<p>Aprendemos a visualizar lo que quieres para tu negocio.</p>
+						</div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="feature-box fbox-center fbox-effect">
+							<div class="fbox-icon">
+								<a href="#">
+                                    <i class="icon-pencil-alt i-alt"></i>
+                                </a>
+							</div>
+							<h3 class="texto-verde">Diseñamos</h3>
+                            <p>Transformamos tu idea en un diseño agradable que puedas ver realidad.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 mt-5">
-                        <div class="feature-box fbox-center fbox-effect nobottomborder">
-                            <div class="fbox-icon" data-animate="bounceIn" data-delay="600">
-                                <i class="fas fa-pencil-alt"></i>
-                            </div>
-                            <p class="parrafo1" data-animate="fadeIn" data-delay="700"><b>Diseñamos,</b> transformamos tu idea en un diseño agradable que puedas ver realidad.</p>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="feature-box fbox-center fbox-effect">
+							<div class="fbox-icon">
+								<a href="#">
+                                    <i class="icon-wrench1 i-alt"></i>
+                                </a>
+							</div>
+							<h3 class="texto-verde">Desarrollamos</h3>
+                            <p>Implementamos el diseño con nuestro equipo de expertos.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 mt-5">
-                        <div class="feature-box fbox-center fbox-effect nobottomborder">
-                            <div class="fbox-icon" data-animate="bounceIn" data-delay="700">
-                                <i class="fas fa-hammer"></i>
-                            </div>
-                            <p class="parrafo1" data-animate="fadeIn" data-delay="800"><b>Desarrollamos,</b> implementamos el diseño con nuestro equipo de expertos.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 mt-5">
-                        <div class="feature-box fbox-center fbox-effect nobottomborder">
-                            <div class="fbox-icon" data-animate="bounceIn" data-delay="900">
-                                <i class="fas fa-thumbs-up"></i>
-                            </div>
-                            <p class="parrafo1" data-animate="fadeIn" data-delay="1000"><b>Entregamos identidad,</b> finalizamos todas tus ideas y las hacemos realidad.</p>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="feature-box fbox-center fbox-effect">
+							<div class="fbox-icon">
+								<a href="#">
+                                    <i class="icon-thumbs-up i-alt"></i>
+                                </a>
+							</div>
+							<h3 class="texto-verde">Entregamos identidad</h3>
+                            <p>Finalizamos todas tus ideas y las hacemos realidad.</p>
                         </div>
                     </div>
                 </div>
@@ -199,423 +229,314 @@
         </div>
         <div id="nosotros" class="section nomargin noborder bg-verde">
             <div class="container clearfix">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="textoTituloBlanco text-center" data-animate="fadeIn" data-delay="200">
-                            <div class="text-rotater" data-separator="|" data-rotate="flipInX" data-speed="2500">
-                                <b>CreativosPlus</b> es para tu negocio <span class="t-rotate">Identidad|Ganancia|Presencia</span>
-                            </div>
-                        </h2>
-                        <p class="parrafoBlanco" data-animate="fadeIn" data-delay="300">
-                            Somos una agencia digital especializada en el desarrollo de tu identidad, nosotros hacemos de tu idea un proyecto sólido y de buena calidad en internet. Nuestra misión es hacer de tu idea una identidad completa de tu negocio.
-                        </p>
-                    </div>
+                <div class="heading-block center">
+                    <h2>
+                        <div class="text-rotater texto-blanco" data-separator="|" data-rotate="flipInX" data-speed="2500">
+                            <b>CreativosPlus</b> es para tu negocio <b><span class="t-rotate">Identidad|Ganancia|Presencia</span></b>
+                        </div>
+                    </h2>
                 </div>
+                <p class="texto-blanco">Somos una agencia digital especializada en el desarrollo de tu identidad, nosotros hacemos de tu idea un proyecto sólido y de buena calidad en internet. Nuestra misión es hacer de tu idea una identidad completa de tu negocio.</p>
                 <div class="row">
-                    <div class="col-lg-4 col-sm-4 mt-5">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="feature-box fbox-small fbox-plain">
                             <div class="fbox-icon">
-                                <i class="texto-blanco fas fa-truck"></i>
+                                <i class="texto-blanco icon-line2-speedometer"></i>
                             </div>
-                            <h3 class="titulo-servicio">Rapidez</h3>
-                            <p class="parrafo-servicio">Entregamos tu proyecto en la menor cantidad de tiempo posible.</p>
+                            <h3 class="texto-blanco">Rapidez</h3>
+                            <p class="texto-blanco">Entregamos tu proyecto en la menor cantidad de tiempo posible.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-4 mt-5">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="500">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="feature-box fbox-small fbox-plain">
                             <div class="fbox-icon">
-                                <i class="texto-blanco fas fa-users"></i>
+                                <i class="texto-blanco icon-users1"></i>
                             </div>
-                            <h3 class="titulo-servicio">Expertos</h3>
-                            <p class="parrafo-servicio">Somos un equipo de profesionales que entienden la necesidad de tu proyecto.</p>
+                            <h3 class="texto-blanco">Expertos</h3>
+                            <p class="texto-blanco">Somos un equipo de profesionales que entienden la necesidad de tu proyecto.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-4 mt-5">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="600">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="feature-box fbox-small fbox-plain">
                             <div class="fbox-icon">
-                                <i class="texto-blanco fas fa-handshake"></i>
+                                <i class="texto-blanco icon-handshake"></i>
                             </div>
-                            <h3 class="titulo-servicio">Confianza</h3>
-                            <p class="parrafo-servicio">La responsabilidad es una de nuestras mayores virtudes.</p>
+                            <h3 class="texto-blanco">Confianza</h3>
+                            <p class="texto-blanco">La responsabilidad es una de nuestras mayores virtudes.</p>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-4 mt-5">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="700">
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="feature-box fbox-small fbox-plain">
                             <div class="fbox-icon">
-                                <i class="texto-blanco fas fa-headset"></i>
+                                <i class="texto-blanco icon-headset"></i>
                             </div>
-                            <h3 class="titulo-servicio">Soporte</h3>
-                            <p class="parrafo-servicio">Estamos disponibles siempre para atender sus inquietudes.</p>
+                            <h3 class="texto-blanco">Soporte</h3>
+                            <p class="texto-blanco">Estamos disponibles siempre para atender sus inquietudes.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-4 mt-5">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="800">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="feature-box fbox-small fbox-plain">
                             <div class="fbox-icon">
-                                <i class="texto-blanco fas fa-globe-americas"></i>
+                                <i class="texto-blanco icon-world"></i>
                             </div>
-                            <h3 class="titulo-servicio">Presencia</h3>
-                            <p class="parrafo-servicio">Contamos con lo que necesitas para estar en el mundo digital.</p>
+                            <h3 class="texto-blanco">Presencia</h3>
+                            <p class="texto-blanco">Contamos con lo que necesitas para estar en el mundo digital.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-4 mt-5 pb-4">
-                        <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="900">
+                    <div class="col-lg-4 col-sm-4">
+                        <div class="feature-box fbox-small fbox-plain">
                             <div class="fbox-icon">
-                                <i class="texto-blanco fas fa-plus"></i>
+                                <i class="texto-blanco icon-plus"></i>
                             </div>
-                            <h3 class="titulo-servicio">Nuestro PLUS</h3>
-                            <p class="parrafo-servicio">Te otorgamos ese plus que no te ofrecen los demás.</p>
+                            <h3 class="texto-blanco">Nuestro PLUS</h3>
+                            <p class="texto-blanco">Te otorgamos ese plus que no te ofrecen los demás.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section nomargin noborder bg-azul">
+        <div class="section nomargin noborder bg-azul" id="promoBox1" style="padding: 60px 0 15px 0;">
             <div class="container clearfix">
                 <div class="row">
-                    <div class="col-lg-9 text-center" data-animate="fadeIn" data-delay="300">
-                        <h2>Tener <b>presencia</b> en internet nunca fue tan necesario.</h2>
-                        <p class="texto-6 t300 nolineheight">
-                            La identidad de tu negocio te espera.
-                        </p>
+                    <div class="col-lg-9">
+                        <div class="heading-block center">
+							<h2 class="texto-blanco">Tener <b>presencia</b> en internet nunca fue tan necesario.</h2>
+							<span class="texto-blanco">La identidad de tu negocio te espera.</span>
+						</div>
                     </div>
-                    <div class="col-lg-3 mt-4" data-animate="bounceIn" data-delay="500">
-                        <a href="" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200" ><button  type="submit" class="btn btn-primary">Contáctanos</button></a>
+                    <div class="col-lg-3 mt-3">
+                        <a class="btn-verde button button-3d button-reveal button-xlarge tright button-rounded" href="" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">
+                            <i class="icon-line-arrow-right"></i>
+                            <span>Contáctanos</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="servicios" class="section nomargin noborder bg-blanco">
+        <div id="servicios" class="section nomargin noborder">
             <div class="container clearfix">
-                <div class="row">
-                    <div class="col-lg-12 text-center" data-animate="fadeIn" data-delay="300">
-                        <h3 class="textoTituloVerde">Ofrecemos los mejores <b>servicios</b> para ti.</h3>
-                    </div>
+                <div class="heading-block center">
+                    <h2 class="texto-verde">Ofrecemos los mejores <b>servicios</b> para ti.</h2>
                 </div>
-                <div class="mt-4 tabs tabs-bb tabs-justify clearfix" id="tab-9">
-                    <ul class="tab-nav clearfix" data-animate="fadeIn" data-delay="500">
-                        <li data-animate="fadeIn" data-delay="500">
-                            <a href="#tabs-33">Diseño y desarrollo web</a>
-                        </li>
-                        <li data-animate="fadeIn" data-delay="600">
-                            <a href="#tabs-34">Diseño gráfico</a></li>
-                        <li data-animate="fadeIn" data-delay="700">
-                            <a href="#tabs-35">Marketing digital</a>
-                        </li>
-                        <li data-animate="fadeIn" data-delay="800">
-                            <a href="#tabs-36">Aplicaciones móviles</a>
-                        </li>
-                    </ul>
-                    <div class="tab-container">
-                        <div class="tab-content clearfix" id="tabs-33">
-                            <div class="row">
-                                <div class="col-lg-7" data-animate="fadeIn" data-delay="700">
-                                    <p class="mx-5 my-3 tabContentResponsive texto-gris">
-                                        Nuestro equipo de diseño se encarga de encontrar la mejor interfaz para tu sitio web respetando las características gráficas de tu identidad, adaptándolas a todo tipo de dispositivos y pantallas.
-                                        El equipo de desarrollo utiliza las últimas tecnologías del mercado para así realizar una plataforma sólida, confiable y duradera. <br><br> <b>Lo que podemos hacer para ti:</b>
-                                    </p>
-                                    <ul class="tabListResponsive pl-5 mx-5 my-3  texto-gris" data-animate="fadeIn" data-delay="800">
-                                        <li class="mt-3">
-                                            Landing Page.       
-                                        </li>
-                                        <li class="mt-3">
-                                            eCommerce.          
-                                        </li>
-                                        <li class="mt-3">
-                                            WordPress.                
-                                        </li>
-                                        <li class="mt-3">
-                                            Aplicaciones web.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-5 pt-2" data-animate="bounceIn" data-delay="900">
-                                    <img class="imgTab1" src="../images/servicios/tab1.png" title="Diseño web" alt="Diseño y desarrollo web">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-34">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <p class="tabContentResponsive mx-5 my-3 texto-gris">
-                                        Contamos con diseñadores profesionales que se encargarán de hacer realidad todas tus ideas de una manera gráfica y conseguiremos construir tu identidad.
-                                        Esta misma podrá ser adaptada y transformada en un modelo gráfico de primer nivel. <br><br> <b>Lo que podemos hacer para ti:</b>
-                                    </p>
-                                    <ul class="tabListResponsive pl-5 mx-5 my-3 texto-gris">
-                                        <li class="mt-3">
-                                            Logotipos.         
-                                        </li>
-                                        <li class="mt-3">
-                                            Diseño corporativo.          
-                                        </li>
-                                        <li class="mt-3">
-                                            Flyers.                
-                                        </li>
-                                        <li class="mt-3">
-                                            Tarjetas de presentación.
-                                        </li>
-                                        <li class="mt-3">
-                                            Manuales y catálogos.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4 pt-2">
-                                    <img class="imgTab2" data-animate="bounceIn" data-delay="10" src="../images/servicios/tab2.png" title="Diseño gráfico" alt="Diseño gráfico">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-35">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <p class="tabContentResponsive mx-5 my-3 texto-gris">
-                                        Nos enfocamos en orientar tu estrategia digital aplicando tácticas claves para el crecimiento de tu negocio y así poder aumentar tus ganancias. Actualmente, tu marca debe aparecer en internet para obtener un mayor alcance. ¿Qué esperas para aparecer en él? <br><br> <b>Lo que podemos hacer por ti:</b>
-                                    </p>
-                                    <ul class="tabListResponsive pl-5 mx-5 my-3 texto-gris">
-                                        <li class="mt-3">
-                                            Gestión de redes sociales.         
-                                        </li>
-                                        <li class="mt-3">
-                                            Campañas en redes sociales.         
-                                        </li>
-                                        <li class="mt-3">
-                                            Generación de contenido.
-                                        </li>
-                                        <li class="mt-3">
-                                            Analítica web.                
-                                        </li>
-                                        <li class="mt-3">
-                                            SEO y SEM.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4">
-                                    <img class="imgTab3" data-animate="bounceIn" data-delay="10" src="../images/servicios/tab3.png" title="Marketing Digital" alt="Marketing digital">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content clearfix" id="tabs-36">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <p class="tabContentResponsive mx-5 my-3 texto-gris">
-                                        Desarrollamos aplicaciones totalmente adaptadas a tu negocio haciendo más fácil y rápido las tareas de tus usuarios, ofreciendo soluciones simples, creativas, con la mejor tecnología del mercado para una mejor experiencia. <br><br> <b>Lo que podemos hacer por ti:</b>
-                                    </p>
-                                    <ul class="tabListResponsive pl-5 mx-5 my-3 texto-gris">
-                                        <li class="mt-3">
-                                            Aplicaciones híbridas.                                                   
-                                        </li>
-                                        <li class="mt-3">
-                                            Aplicaciones nativas. 
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-4">
-                                    <img class="imgTab4" data-animate="bounceIn" data-delay="10" src="../images/servicios/tab4.jpg" title="Aplicaciones móviles" alt="Aplicaciones móviles">
-                                </div>
-                            </div>
-                        </div>
+                <div class="col_two_fifth topmargin nobottommargin" style="min-height: 350px;">
+                    <img class="rotarImg" src="../images/servicios/servicio1.png" alt="">
+                </div>
+                <div class="col_three_fifth nobottommargin col_last">
+                    <div class="heading-block">
+                        <h3 class="texto-verde">Diseño de páginas web</h3>
+                        <span>Reports let you easily track and analyze your product sales, orders, and payments.</span>
                     </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam, laboriosam!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
+                    <!-- <a href="#">Learn more &rarr;</a> -->
+                </div>
+                <div class="clear"></div><div class="line"></div>
+                <div class="col_three_fifth">
+                    <div class="heading-block">
+                        <h3 class="texto-verde">Diseño de gráfico profesional</h3>
+                        <span>Benchmarking your website's performance helps you make great choices for your business.</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam, laboriosam!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
+                    <!-- <a href="#">Learn more &rarr;</a> -->
+                </div>
+                <div class="col_two_fifth topmargin col_last" style="min-height: 350px">
+                    <img src="../images/servicios/servicio2.png" alt="">
+                </div>
+                <div class="clear"></div><div class="line"></div>
+                <div class="col_two_fifth topmargin nobottommargin" style="min-height: 350px;">
+                    <img src="../images/servicios/servicio3.png" alt="">
+                </div>
+                <div class="col_three_fifth nobottommargin col_last">
+                    <div class="heading-block">
+                        <h3 class="texto-verde">Marketing Digital</h3>
+                        <span>Reports let you easily track and analyze your product sales, orders, and payments.</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam, laboriosam!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam excepturi quod, fuga architecto provident, cupiditate delectus voluptate eaque! Sit neque ut eum, voluptatibus odit cum dolorum ipsa voluptates inventore cumque a.</p>
+                    <!-- <a href="#">Learn more &rarr;</a> -->
                 </div>
             </div>
         </div>
-        <div class="section nomargin noborder bg-azul">
+        <div class="section nomargin noborder bg-azul" id="promoBox2" style="padding: 60px 0 15px 0;">
             <div class="container clearfix">
                 <div class="row s-normal">
-                    <div class="col-lg-3 mt-4" data-animate="bounceIn" data-delay="700">
-                        <a href="" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200" ><button  type="submit" class="btn btn-primary">Contáctanos</button></a>
+                    <div class="col-lg-3 mt-3">
+                        <a class="btn-verde button button-3d button-reveal button-xlarge tright button-rounded" href="" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">
+                            <i class="icon-line-arrow-right"></i>
+                            <span>Contáctanos</span>
+                        </a>
                     </div>
-                    <div class="col-lg-9 text-center" data-animate="fadeIn" data-delay="500">
-                        <h2>Buscamos hacer realidad tus <b>sueños</b> por el mejor precio.</h2>
-                        <p class="texto-6 t300 nolineheight">
-                            Obtener tu identidad nunca fue tan fácil.
-                        </p>
-                    </div>
-                </div>
-                <div class="row s-responsive">
-                    <div class="col-lg-8 text-center" data-animate="fadeIn" data-delay="500">
-                        <h2>Buscamos hacer realidad tus sueños por el mejor precio</h2>
-                        <p class="texto-5 t300 nolineheight">
-                            Tenemos las mejores ofertas para ti 
-                        </p>
-                    </div>
-                    <div class="col-lg-3 mt-4" data-animate="bounceIn" data-delay="700">
-                        <a href="" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200" ><button  type="submit" class="btn btn-primary">Contáctanos</button></a>
+                    <div class="col-lg-9 center">
+                        <div class="heading-block">
+                            <h2 class="texto-blanco">Buscamos hacer realidad tus <b>sueños</b> por el mejor precio.</h2>
+                            <span class="texto-blanco">Obtener tu identidad nunca fue tan fácil.</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="trabajos" class="row mt-5 mb-3 margin-responsive">
-            <div class="col-lg-12 text-center" data-animate="fadeIn" data-delay="500">
-                <h3 class="textoTituloVerde"><b>Últimos trabajos,</b> conoce la calidad de ellos.</h3>
+        <div id="trabajos" class="section nomargin noborder">
+            <div class="container">
+                <div class="heading-block center">
+                    <h2 class="texto-verde"><b>Últimos trabajos</b>, conoce la calidad de ellos.</h2>
+                </div>
+                <div id="oc-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4" data-loop="true"  data-autoplay="5000">
+                    <div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="../images/portfolio/1.png" alt="Open Imagination">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <a target="_blank" href="http://www.serviplotca.com" class="center-icon">
+                                        <i class="texto-verde icon-line-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3><a class="texto-verde" target="_blank" href="http://www.serviplotca.com">Serviplotca</a></h3>
+                                <span>Sitio web</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="../images/portfolio/2.png">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <a target="_blank" href="http://www.drycleaningontherun.com" class="center-icon">
+                                        <i class="texto-verde icon-line-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3><a class="texto-verde" target="_blank" href="http://www.drycleaningontherun.com">DryCleaning</a></h3>
+                                <span>Landing page</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="../images/portfolio/3.png">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <a target="_blank" href="https://weare-yourfriends.com" class="center-icon">
+                                        <i class="texto-verde icon-line-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3><a class="texto-verde" target="_blank" href="https://weare-yourfriends.com">We Are Your Friends</a></h3>
+                                <span>eCommerce</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="../images/portfolio/4.png">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <a target="_blank" href="http://petroleumblg.com" class="center-icon">
+                                        <i class="texto-verde icon-line-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3><a class="texto-verde" target="_blank" href="http://petroleumblg.com">Petroleum BLG</a></h3>
+                                <span>Sitio web</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="iportfolio">
+                            <div class="portfolio-image">
+                                <a href="portfolio-single.html">
+                                    <img src="../images/portfolio/5.png">
+                                </a>
+                                <div class="portfolio-overlay">
+                                    <a target="_blank" href="http://jjcustomsolution.com" class="center-icon">
+                                        <i class="texto-verde icon-line-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-desc">
+                                <h3><a class="texto-verde" target="_blank" href="http://jjcustomsolution.com">JJ Custom Solutions</a></h3>
+                                <span>Sitio web</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <div id="portfolio" class="portfolio portfolio-3 grid-container portfolio-notitle clearfix pb-5 mb-2">
-                <article class="portfolio-item pf-media pf-icons">
-                    <div class="portfolio-image">
-                        <a href="portfolio-single.html">
-                            <img src="../images/portfolio/1.png">
-                        </a>
-                        <div class="portfolio-overlay">
-                            <a target="_blank" href="http://www.serviplotca.com" class="center-icon">
-                                <i class="fas fa-plus texto-verde"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-desc">
-                        <h3>
-                            <a class="texto-verde" target="_blank" href="http://www.serviplotca.com"><b>Serviplotca</b></a>
-                        </h3>
-                        <span>
-                            Sitio web empresarial
-                        </span>
-                    </div>
-                </article>
-                <article class="portfolio-item pf-media pf-icons">
-                    <div class="portfolio-image">
-                        <a href="portfolio-single.html">
-                            <img src="../images/portfolio/2.png">
-                        </a>
-                        <div class="portfolio-overlay">
-                            <a target="_blank" href="http://www.drycleaningontherun.com" class="center-icon">
-                                <i class="fas fa-plus texto-verde"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-desc">
-                        <h3>
-                            <a class="texto-verde" target="_blank" href="http://www.drycleaningontherun.com"><b>DryCleaning</b></a>
-                        </h3>
-                        <span>
-                            Landing page
-                        </span>
-                    </div>
-                </article>
-                <article class="portfolio-item pf-media pf-icons">
-                    <div class="portfolio-image">
-                        <a href="portfolio-single.html">
-                            <img src="../images/portfolio/3.png">
-                        </a>
-                        <div class="portfolio-overlay">
-                            <a target="_blank" href="https://weare-yourfriends.com" class="center-icon">
-                                <i class="fas fa-plus texto-verde"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-desc">
-                        <h3>
-                            <a class="texto-verde" target="_blank" href="https://weare-yourfriends.com"><b>We Are Your Friends</b></a>
-                        </h3>
-                        <span>
-                            eCommerce
-                        </span>
-                    </div>
-                </article>
-                <article class="portfolio-item pf-media pf-icons">
-                    <div class="portfolio-image">
-                        <a href="portfolio-single.html">
-                            <img src="../images/portfolio/4.png">
-                        </a>
-                        <div class="portfolio-overlay">
-                            <a target="_blank" href="http://petroleumblg.com" class="center-icon">
-                                <i class="fas fa-plus texto-verde"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-desc">
-                        <h3>
-                            <a class="texto-verde" target="_blank" href="http://petroleumblg.com"><b>Petroleum BLG</b></a>
-                        </h3>
-                        <span>
-                            Sitio web empresarial
-                        </span>
-                    </div>
-                </article>
-                <article class="portfolio-item pf-media pf-icons">
-                    <div class="portfolio-image">
-                        <a href="portfolio-single.html">
-                            <img src="../images/portfolio/5.png">
-                        </a>
-                        <div class="portfolio-overlay">
-                            <a target="_blank" href="http://jjcustomsolution.com" class="center-icon">
-                                <i class="fas fa-plus texto-verde"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio-desc">
-                        <h3>
-                            <a class="texto-verde" target="_blank" href="http://jjcustomsolution.com"><b>JJ Custom Solutions</b></a>
-                        </h3>
-                        <span>
-                            Sitio web empresarial
-                        </span>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="section nomargin noborder bg-verde">
+        <div class="section nomargin noborder bg-verde" id="promoBox3" style="padding: 60px 0 15px 0;">
             <div class="container clearfix">
                 <div class="row">
-                    <div class="col-lg-8 text-center" data-animate="fadeIn" data-delay="500">
-                        <h2><b>Prueba gratis,</b> nuestro sistema de citas.</h2>
-                        <p class="texto-5 t300 nolineheight">
-                            Nuestros clientes están felices con el sistema.
-                        </p>
+                    <div class="col-lg-8">
+                        <div class="heading-block center">
+                            <h2 class="texto-blanco">Prueba gratis, nuestro sistema de citas.</h2>
+                            <span class="texto-blanco">Nuestros clientes están felices con el sistema.</span>
+                        </div>
                     </div>
-                    <div class="col-lg-3 mt-4" data-animate="bounceIn" data-delay="700">
-                        <button type="submit" class="btn btn-secondary">Pruébalo gratis</button>
+                    <div class="col-lg-3 mt-3">
+                        <a class="btn-azul button button-dark button-3d button-reveal button-xlarge tright button-rounded" href="" data-scrollto="#footer" data-offset="160" data-easing="easeInOutExpo" data-speed="1200">
+                            <i class="icon-line-arrow-right"></i>
+                            <span>Contáctanos</span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="section nomargin noborder bg-blanco" id="testimonios">
+        <div class="section nomargin noborder" id="testimonios">
             <div class="container clearfix">
-                <div class="row">
-                    <div class="col-lg-12 text-center" data-animate="fadeIn" data-delay="500">
-                        <h3 class="textoTituloVerde"><b>Clientes</b> que han confiado en nosotros.</h3>
-                    </div>
+                <div class="heading-block center">
+                    <h2 class="texto-verde"><b>Clientes</b> que han confiado en nosotros.</h2>
                 </div>
-                <div id="oc-testi" data-animate="fadeIn" data-delay="600" class="owl-carousel  testimonials-carousel  carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-loop="true"  data-autoplay="5000" data-items-xs="1" data-items-sm="1" data-items-md="2" data-items-lg="3" data-items-xl="3">
+                <div id="oc-testi" class="owl-carousel  testimonials-carousel  carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-loop="false"  data-autoplay="5000" data-items-xs="1" data-items-sm="1" data-items-md="2" data-items-lg="3" data-items-xl="3">
                     <div class="oc-item">
                         <div class="testimonial">
-                            <img class="ml-2 imgTesti" title="Serviplotca" src="../images/testimonios/1.png" alt="Logo serviplotca">
                             <div class="testi-content mt-2">
                                 <p class="texto-gris">Gracias a Creativosplus encontre lo que quería para mi negocio.</p>
                                 <div class="testi-meta">
-                                    <span>Franklin Diaz</span>
+                                    <span>Franklin Diaz - <a class="texto-verde" target="_blank" href="http://www.serviplotca.com">Serviplotca</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="oc-item">
                         <div class="testimonial">
-                            <img class="ml-2 imgTesti" title="DryCleaning" src="../images/testimonios/3.png" alt="Logo Drycleaning">
                             <div class="testi-content mt-2">
                                 <p class="texto-gris">Una página web muy bien diseñada, contento con el servicio y la atención recibida.</p>
                                 <div class="testi-meta">
-                                    <span>Osman Orozco</span>
+                                    <span>Osman Orozco - <a class="texto-verde" target="_blank" href="http://www.drycleaningontherun.com">DryCleaning</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="oc-item">
                         <div class="testimonial">
-                            <img class="ml-2 imgTesti" title="P&E" src="../images/testimonios/2.png" alt="Logo Petroleum BLG">
                             <div class="testi-content mt-2">
                                 <p class="texto-gris"></p>
                                 <div class="testi-meta">
-                                    <span>Osman Orozco</span>
+                                    <span>Osman Orozco - <a class="texto-verde" target="_blank" href="http://petroleumblg.com">BLG Petroleum</a></span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="oc-item">
                         <div class="testimonial">
-                            <img class="ml-2 imgTesti" title="GuarosToday" src="../images/testimonios/4.png" alt="Logo Guarostoday">
                             <div class="testi-content mt-2">
                                 <p class="texto-gris"></p>
                                 <div class="testi-meta">
-                                    <span>Angel Ramirez</span>
+                                    <span>Angel Ramirez - <a class="texto-verde" target="_blank" href="http://jjcustomsolution.com">JJ Custom Solutions</a></span> 
                                 </div>
                             </div>
                         </div>
@@ -624,104 +545,107 @@
             </div>			
         </div>
     </section>
-    <footer id="footer" class="fondoFooter">
+    <footer id="footer" class="bg-azul">
         <div class="container">
             <div class="footer-widgets-wrap clearfix">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="widget quick-contact-widget clearfix">
-                            <h2 class="texto-blanco tc-responsive" data-animate="fadeIn" data-delay="200">Contacto</h2>
-                            <div id="resultados_ajax"></div>
-                            <form name="contac-form" id="contact-form" class="col-lg-12" method="post" action="sendemail.php" onsubmit="return validar()"  >
+                <div class="heading-block">
+                    <h2 class="texto-blanco">Contacto</h2>
+                </div>
+                <form name="contac-form" id="contact-form" class="col-lg-12" method="post" action="">
+                    <div class="row clearfix">
+                        <div class="col-lg-6">
+                            <div class="widget clearfix">
                                 <div class="form-row">
-                                    <div class="form-group col-lg-6" data-animate="fadeIn" data-delay="300">
-                                        <label class="texto-blanco" for="name">Nombre(*)</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" >
+                                    <div class="form-group col-lg-6">
+                                        <label class="texto-blanco" for="nombre">Nombre (*)</label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
                                     </div>
-                                    <div class="form-group col-lg-6" data-animate="fadeIn" data-delay="400">
-                                        <label class="texto-blanco" for="Email">Email(*)</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" >
+                                    <div class="form-group col-lg-6">
+                                        <label class="texto-blanco" for="correo">Email (*)</label>
+                                        <input type="email" class="form-control" id="correo" name="correo" placeholder="Email" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
-                                    <div class="form-group col-lg-6" data-animate="fadeIn" data-delay="500">
-                                        <label class="texto-blanco" for="phone">Numero(*)</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Numero" >
+                                    <div class="form-group col-lg-6">
+                                        <label class="texto-blanco" for="telefono">Numero (*)</label>
+                                        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Numero" required>
                                     </div>
-                                    <div class="form-group col-lg-6" data-animate="fadeIn" data-delay="500">
-                                        <label class="texto-blanco" for="service">Asunto(*)</label>
-                                        <input type="text" class="form-control" id="service" name="service" placeholder="Cotizaciones, soporte, inquietudes">
+                                    <div class="form-group col-lg-6">
+                                        <label class="texto-blanco" for="asunto">Asunto (*)</label>
+                                        <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Cotizaciones, soporte, inquietudes">
                                     </div>
                                 </div>
-                                <div class="form-group" data-animate="fadeIn" data-delay="600">
-                                    <label class="texto-blanco" for="mensaje">Mensaje(*)</label>
-                                    <textarea class="required form-control input-block-level " id="message" name="message" rows="4" cols="30" placeholder="Escribe tu mensaje" ></textarea>
-                                    <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-                                </div>
-                                <input type="submit" class="mt-1 btn btn-primary btn-normal" data-animate="bounceIn" data-delay="800" value="Enviar" onclick="validar()" >
-                                <input type="submit" class="mt-1 btn btn-primary btn-block btn-responsive" data-animate="bounceIn" data-delay="800" value="Enviar" onclick="validar()"  >
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="responsiveFix widget clearfix">
-                                    <a target="_blank" href="https://www.facebook.com/Creativos-Plus-635921623415017/" class="si-large social-icon si-rounded si-facebook" data-animate="bounceIn" data-delay="400">
-                                        <i class="icon-facebook"></i>
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a target="_blank" href="https://www.instagram.com/creativosplus/" class="si-large social-icon si-rounded si-instagram" data-animate="bounceIn" data-delay="500">
-                                        <i class="icon-instagram2"></i>
-                                        <i class="icon-instagram2"></i>
-                                    </a>
-                                    <a target="_blank" href="https://twitter.com/creativosplus/?lang=es" class="si-large social-icon si-rounded si-twitter" data-animate="bounceIn" data-delay="600">
-                                        <i class="icon-twitter"></i>
-                                        <i class="icon-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6 mt-responsive">
-                                <a href="https://www.creativosplus.com">
-                                    <img data-animate="bounceIn" data-delay="700" src="../images/logos/logo-blanco.png" class="img-fluid" alt="Creativos Plus" title="Creativos Plus">
+                                <a href="" id="enviar" class="button btn-verde button-3d button-reveal button-large tright button-rounded" style="margin-left: -1px;">
+                                    <i class="icon-line-arrow-right"></i>
+                                    <span>Enviar</span>
                                 </a>
                             </div>
                         </div>
-                        <div data-animate="fadeIn" data-delay="700" class="line" style="margin: 30px 0;  color: white;"></div>
-                        <div class="row tc-responsive">
-                            <div class="col-lg-12">
-                                <div class="widget clearfix">
-                                    <h3 data-animate="fadeIn" data-delay="800">Creemos en La <b>Creatividad</b></h3>
-                                    <ul class="iconlist">
-                                        <li class="texto-5 mt-3" data-animate="fadeIn" data-delay="900">
-                                            <i class="fas fa-map-marker-alt"></i> 
-                                            Dirección: <a target="_blank" class="texto-blanco" href="https://goo.gl/maps/GGcN7JQiqCw"><br class="only-responsive"><b>Urb Petimora 2, Cabudare, Estado Lara.</b></a>              
-                                        </li>
-                                        <li class="texto-5 mt-3" data-animate="fadeIn" data-delay="1000">
-                                            <i class="fas fa-mobile-alt"></i> 
-                                            Teléfono: <a class="texto-blanco" href="tel:+584245853827"> <br class="only-responsive"><b>(+58) 4245853827</b></a>   
-                                            <b class="only-normal">|</b> <br class="only-responsive"><a class="texto-blanco" href="tel:+584145069150"><b>(+58) 4145069150</b></a>               
-                                        </li>
-                                        <li class="texto-5 mt-3" data-animate="fadeIn" data-delay="1100">
-                                            <i class="fab fa-whatsapp"></i>
-                                            WhatsApp: <a class="texto-blanco" target="_blank" href="https://api.whatsapp.com/send?phone=584245853827&text=Hola,%20quiero%20contactarlos"><br class="only-responsive"><b>(+58) 4245853827</b></a> 
-                                            <b class="only-normal">|</b> <a class="texto-blanco" target="_blank" href="https://api.whatsapp.com/send?phone=584145069150&text=Hola,%20quiero%20contactarlos"><br class="only-responsive"><b>(+58) 4145069150</b></a>                  
-                                        </li>
-                                        <li class="texto-5 mt-3" data-animate="fadeIn" data-delay="1200">
-                                            <i class="fas fa-envelope"></i>
-                                            Correo: <a class="texto-blanco" href="mailto:contacto@creativosplus.com"><b>contacto@creativosplus.com</b></a> 
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>    
+                        <div class="d-none d-md-block d-lg-none bottommargin-sm"></div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label class="texto-blanco" for="mensaje">Mensaje (*)</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="7" cols="30" placeholder="Escribe tu mensaje" required></textarea>
+                            </div>
                         </div>
+                    </div>
+                    <div class="w-100 d-block d-md-block d-lg-none line"></div>
+                </form>
+                <div class="line"></div>
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="widget clearfix">
+                            <div class="clear-bottommargin-sm">
+                                <div class="row clearfix">
+                                    <div class="col-lg-4">
+                                        <div class="footer-big-contacts texto-blanco">
+                                            <i class="icon-phone3"></i>
+                                            <span>Teléfonos:</span>
+                                            <a class="texto-blanco" href="tel:+584245853827">
+                                                (+58) 4245853827
+                                            </a> 
+                                            |
+                                            <a class="texto-blanco" href="tel:+584145069150">
+                                                (+58) 4145069150
+                                            </a>
+                                        </div>
+                                        <div class="d-block d-md-block d-lg-none bottommargin-sm"></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="footer-big-contacts texto-blanco">
+                                            <i class="icon-whatsapp"></i>
+                                            <span>WhatsApp:</span>
+                                            <a class="texto-blanco" target="_blank" href="https://api.whatsapp.com/send?phone=584245853827&text=Hola,%20quiero%20contactarlos">
+                                                (+58) 4245853827
+                                            </a>
+                                            |
+                                            <a class="texto-blanco" target="_blank" href="https://api.whatsapp.com/send?phone=584145069150&text=Hola,%20quiero%20contactarlos">
+                                                (+58) 4145069150
+                                            </a>
+                                        </div>
+                                        <div class="d-block d-md-none bottommargin-sm"></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="footer-big-contacts texto-blanco">
+                                            <i class="icon-map-marker2"></i>
+                                            <span>Dirección:</span>
+                                            <a target="_blank" class="texto-blanco" href="https://goo.gl/maps/GGcN7JQiqCw">
+                                                Urb Petimora 2, Cabudare, Estado Lara.
+                                            </a>
+                                        </div>
+                                        <div class="d-block d-md-none bottommargin-sm"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-block d-md-block d-lg-none bottommargin-sm"></div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h5>Copyrights &copy; 2019. Todos los derechos son reservados por CreativosPlus.</h5>
-                </div>
+        </div>
+        <div id="copyrights">
+            <div class="container center clearfix texto-blanco">
+                Copyrights &copy; 2019. Todos los derechos son reservados por CreativosPlus.
             </div>
         </div>
     </footer>
@@ -730,8 +654,8 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/plugins.js"></script>
     <script src="../js/functions.js"></script>
-    <script src="js/main.js"></script>
-
+    <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 </html>

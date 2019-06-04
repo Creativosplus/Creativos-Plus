@@ -9,10 +9,7 @@ header ("Content-Type:text/css");
  *
  ================================================================== */
 
-$color = "#24b35a";
-$color2 = "#24b35a";
-$color3="#ffff";
-$color4="#014e6c";// Change your Color Here
+$color = "#24B35A"; // Change your Color Here
 
 /** ===============================================================
  *
@@ -34,11 +31,11 @@ function checkhexcolor($color) {
  ================================================================== */
 
 if( isset( $_GET[ 'color' ] ) AND $_GET[ 'color' ] != '' ) {
-	$color2 = "#" . $_GET[ 'color' ];
+	$color = "#" . $_GET[ 'color' ];
 }
 
-if( !$color2 OR !checkhexcolor( $color2 ) ) {
-	$color2 = "#24b35a";
+if( !$color OR !checkhexcolor( $color ) ) {
+	$color = "#1ABC9C";
 }
 
 ?>
@@ -51,11 +48,11 @@ if( !$color2 OR !checkhexcolor( $color2 ) ) {
 -----------------------------------------------------------------*/
 
 
-::selection { background: <?php echo $color2; ?>; }
+::selection { background: <?php echo $color; ?>; }
 
-::-moz-selection { background: <?php echo $color2; ?>; }
+::-moz-selection { background: <?php echo $color; ?>; }
 
-::-webkit-selection { background: <?php echo $color2; ?>; }
+::-webkit-selection { background: <?php echo $color; ?>; }
 
 
 a,
@@ -103,14 +100,7 @@ h6 > span:not(.nocolor):not(.badge),
 .btn-link,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
-.clear-rating-active:hover { color: <?php echo $color2; ?>; }
-
-.feature-box.fbox-border .fbox-icon i,
-.feature-box.fbox-border .fbox-icon img,
-.feature-box.fbox-plain .fbox-icon i,
-.feature-box.fbox-plain .fbox-icon img { color: <?php echo $color4;?> !important;}
-
-.feature-box.fbox-border:hover {color: <?php echo $color4;?>;}
+.clear-rating-active:hover { color: <?php echo $color; ?>; }
 
 .color,
 .top-cart-item-desc a:hover,
@@ -125,7 +115,7 @@ h6 > span:not(.nocolor):not(.badge),
 .overlay-menu #primary-menu.dark > ul > li.current > a,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: <?php echo $color2; ?> !important; }
+.nav-tree li.active > a { color: <?php echo $color; ?> !important; }
 
 #primary-menu.style-3 > ul > li.current > a,
 #primary-menu.sub-title > ul > li:hover > a,
@@ -142,7 +132,7 @@ h6 > span:not(.nocolor):not(.badge),
 .portfolio-shuffle:hover,
 .entry-link:hover,
 .sale-flash,
-.button:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime),
+.button:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):not(:hover),
 .button.button-dark:hover,
 .promo.promo-flat,
 .feature-box .fbox-icon i,
@@ -183,14 +173,7 @@ input.switch-toggle-flat:checked + label:after,
 input.switch-toggle-round:checked + label:before,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-themecolor,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor,
-.entry:after { background-color: <?php echo $color4; ?>; }
-
-.dark .button-dark:hover,
-.dark .fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-effect.fbox-dark:hover .fbox-icon i,
-.dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:after,
-.dark .i-rounded:hover,
-.dark .i-circled:hover { background-color: <?php echo $color4; ?>; }
+.entry:after { background-color: <?php echo $color; ?>; }
 
 .bgcolor,
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover,
@@ -201,7 +184,7 @@ input.switch-toggle-round:checked + label:before,
 .owl-carousel .owl-nav [class*=owl-]:hover,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { background-color: <?php echo $color2; ?> !important; }
+.page-link:focus { background-color: <?php echo $color; ?> !important; }
 
 #primary-menu.style-4 > ul > li:hover > a,
 #primary-menu.style-4 > ul > li.current > a,
@@ -216,7 +199,7 @@ input.switch-toggle-round:checked + label:before,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
 .dark .cart-product-thumbnail img:hover,
-.heading-block.border-color:after { border-color: <?php echo $color2; ?>; }
+.heading-block.border-color:after { border-color: <?php echo $color; ?>; }
 
 .top-links ul ul,
 .top-links ul div.top-link-section,
@@ -236,12 +219,12 @@ input.switch-toggle-round:checked + label:before,
 .tabs.tabs-tb ul.tab-nav li.ui-tabs-active a,
 .irs-from:after,
 .irs-single:after,
-.irs-to:after { border-top-color: <?php echo $color2; ?>; }
+.irs-to:after { border-top-color: <?php echo $color; ?>; }
 
 #page-menu.dots-menu nav li div:after,
-.title-block { border-left-color: <?php echo $color2; ?>; }
+.title-block { border-left-color: <?php echo $color; ?>; }
 
-.title-block-right { border-right-color: <?php echo $color2; ?>; }
+.title-block-right { border-right-color: <?php echo $color; ?>; }
 
 .fancy-title.title-bottom-border h1,
 .fancy-title.title-bottom-border h2,
@@ -250,7 +233,7 @@ input.switch-toggle-round:checked + label:before,
 .fancy-title.title-bottom-border h5,
 .fancy-title.title-bottom-border h6,
 .more-link,
-.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: <?php echo $color2; ?>; }
+.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: <?php echo $color; ?>; }
 
 .border-color,
 .process-steps li.active a,
@@ -258,15 +241,15 @@ input.switch-toggle-round:checked + label:before,
 .tagcloud a:hover,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { border-color: <?php echo $color3; ?> !important; }
+.page-link:focus { border-color: <?php echo $color; ?> !important; }
 
 .fbox-effect.fbox-dark .fbox-icon i:after,
-.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px <?php echo $color2; ?>; }
+.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px <?php echo $color; ?>; }
 
 .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
 .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i,
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px <?php echo $color2; ?>; }
+.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px <?php echo $color; ?>; }
 
 
 @media only screen and (max-width: 991px) {
@@ -277,14 +260,14 @@ input.switch-toggle-round:checked + label:before,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a,
 	#primary-menu ul ul li:hover > a,
 	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title:hover > a,
-	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: <?php echo $color2; ?> !important; }
+	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: <?php echo $color; ?> !important; }
 
-	#page-menu nav { background-color: <?php echo $color2; ?>; }
+	#page-menu nav { background-color: <?php echo $color; ?>; }
 
 }
 
 
 @media only screen and (max-width: 767px) {
 
-	.portfolio-filter li a:hover { color: <?php echo $color2; ?>; }
+	.portfolio-filter li a:hover { color: <?php echo $color; ?>; }
 .}
