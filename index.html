@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/custom.css" type="text/css">
     <link rel="stylesheet" href="css/dark.css" type="text/css">
+    <link rel="stylesheet" href="css/app-landing.css" type="text/css">
+    <link rel="stylesheet" href="css/seo.css">
     <link rel="stylesheet" href="css/font-icons.css" type="text/css">
     <link rel="stylesheet" href="css/fonts.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
@@ -105,62 +107,88 @@
 
 </head>
 <body class="stretched">
-    <header id="header" class="transparent-header full-header">
+    <header id="header" class="split-menu transparent-header">
         <div id="header-wrap">
             <div class="container clearfix">
-                <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                <div id="primary-menu-trigger">
+                    <i class="icon-reorder"></i>
+                </div>
                 <div id="logo">
                     <a href="index.html" class="standard-logo" data-sticky-logo="images/logos/logo.png">
-                        <img src="images/logos/logoblanco.png" alt="">
+                        <img src="images/logos/logoblanco.png" alt="CreativosPlus">
                     </a>
                     <a href="index.html" class="retina-logo" data-sticky-logo="images/logos/logo.png">
-                        <img src="images/logos/logoblanco.png" alt="">
+                        <img src="images/logos/logoblanco.png" alt="CreativosPlus">
                     </a>
                 </div>
-                <nav id="primary-menu">
-                    <ul>
-                        <li class="menuLinks">
-                            <a href="" data-scrollto="#nosotros" data-offset="70" data-easing="easeInOutExpo" data-speed="1200">
+                <nav id="primary-menu" class="with-arrows clearfix not-dark">
+                    <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
+                        <li>
+                            <a href="#" data-href="">
+                                <div>Home</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-href="">
                                 <div>Nosotros</div>
                             </a>
                         </li>
-                        <li class="menuLinks">
-                            <a href="" data-scrollto="#servicios" data-offset="35" data-easing="easeInOutExpo" data-speed="1200">
+                        <li>
+                            <a href="#" data-href="">
                                 <div>Servicios</div>
                             </a>
-                        </li>  
-                        <li class="menuLinks">
-                            <a href="" data-scrollto="#trabajos" data-offset="35" data-easing="easeInOutExpo" data-speed="1200">
+                            <ul class="colorLink">
+                                <li>
+                                    <a href="#" data-href="">
+                                        <div>Diseño Web</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-href="">
+                                        <div>Diseño Gráfico</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-href="">
+                                        <div>Marketing Digital</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-href="">
+                                        <div>SEO</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
+                        <li>
+                            <a href="#" data-href="">
                                 <div>Trabajos</div>
                             </a>
-                        </li>  
-                        <li class="menuLinks">
-                            <a href="" data-scrollto="#testimonios" data-offset="35" data-easing="easeInOutExpo" data-speed="1200">
-                                <div>Testimonios</div>
-                            </a>
-                        </li>  
-                        <li class="menuLinks">
-                            <a href="" data-scrollto="#footer" data-offset="70" data-easing="easeInOutExpo" data-speed="1200"> 
+                        </li>
+                        <li>
+                            <a href="#" data-href="">
                                 <div>Contacto</div>
                             </a>
                         </li>
-                        <li class="menuLinks">
-                            <a href="">
+                        <li>
+                            <a href="#" data-href="">
                                 <div>Idioma</div>
                             </a>
-                            <ul>
-                                <li class="menuLinks2">
-                                    <a href="index.html">
+                            <ul class="colorLink">
+                                <li>
+                                    <a href="#" data-href="">
                                         <div>Español</div>
                                     </a>
                                 </li>
-                                <li class="menuLinks2">
-                                    <a href="us/index.html">
+                                <li>
+                                    <a href="#" data-href="">
                                         <div>Ingles</div>
                                     </a>
                                 </li>
                             </ul>
-                        </li>                  
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -308,47 +336,6 @@
         </div>
 
     </section>
-    <!-- <section id="slider" class="slider-element slider-parallax swiper_wrapper clearfix" data-autoplay="3500" data-effect="slide" data-loop="true" data-speed="400" data-progress="true">
-        <div class="slider-parallax-inner">
-            <div class="swiper-container swiper-parent">
-                <div class="swiper-wrapper">
-                    <div id="carrusel1" class="swiper-slide dark">
-                        <div class="container clearfix">
-                            <div class="slider-caption slider-caption-left">
-                                <h2 class="texto-blanco">
-                                    CreativosPlus, diseñamos tu identidad con un click.
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="carrusel2" class="swiper-slide dark">
-                        <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right">
-                                <h2 class="texto-blanco">
-                                    Conectarse con los clientes es una prioridad.
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="carrusel3" class="swiper-slide">
-                        <div class="container clearfix">
-                            <div class="slider-caption">
-                                <h2 class="texto-blanco">
-                                    Un buen diseño te diferenciará del resto.
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-arrow-left">
-                    <i class="icon-angle-left"></i>
-                </div>
-                <div class="slider-arrow-right">
-                    <i class="icon-angle-right"></i>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <section id="content">
         <div class="si-sticky d-none d-lg-block">
             <a target="_blank" href="https://www.facebook.com/Creativos-Plus-635921623415017/" class="social-icon si-facebook si-colored" data-animate="bounceInLeft">
@@ -568,7 +555,7 @@
                 </div>
             </div>
         </div>
-        <div id="trabajos" class="section nomargin noborder">
+        <div id="trabajos" class="section nomargin noborder" style="background: url('images/3.jpg') no-repeat top center; background-size: cover; padding: 80px 0 70px;">
             <div class="container">
                 <div class="heading-block center">
                     <h2 class="texto-verde"><b>Últimos trabajos</b>, conoce la calidad de ellos.</h2>
@@ -685,48 +672,63 @@
                 </div>
             </div>
         </div>
-        <div class="section nomargin noborder" id="testimonios">
+        <div class="section nomargin noborder" id="testimonios" style="background: url('images/3.jpg') no-repeat top center; background-size: cover; padding: 80px 0 70px;">
             <div class="container clearfix">
                 <div class="heading-block center">
                     <h2 class="texto-verde"><b>Clientes</b> que han confiado en nosotros.</h2>
                 </div>
-                <div id="oc-testi" class="owl-carousel  testimonials-carousel  carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-loop="false"  data-autoplay="5000" data-items-xs="1" data-items-sm="1" data-items-md="2" data-items-lg="3" data-items-xl="3">
+                <div id="oc-testi" class="owl-carousel testimonials-carousel carousel-widget clearfix" data-margin="0" data-pagi="true" data-loop="true" data-center="true" data-autoplay="5000" data-items-sm="1" data-items-md="2" data-items-xl="3">
                     <div class="oc-item">
                         <div class="testimonial">
-                            <div class="testi-content mt-2">
-                                <p class="texto-gris">Gracias a Creativosplus encontre lo que quería para mi negocio.</p>
+                            <div class="testi-content">
+                                <p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
                                 <div class="testi-meta">
-                                    <span>Franklin Diaz - <a class="texto-verde" target="_blank" href="http://www.serviplotca.com">Serviplotca</a></span>
+                                    John Doe
+                                    <span>XYZ Inc.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="oc-item">
                         <div class="testimonial">
-                            <div class="testi-content mt-2">
-                                <p class="texto-gris">Una página web muy bien diseñada, contento con el servicio y la atención recibida.</p>
+                            <div class="testi-content">
+                                <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
                                 <div class="testi-meta">
-                                    <span>Osman Orozco - <a class="texto-verde" target="_blank" href="http://www.drycleaningontherun.com">DryCleaning</a></span>
+                                    Collis Ta'eed
+                                    <span>Envato Inc.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="oc-item">
                         <div class="testimonial">
-                            <div class="testi-content mt-2">
-                                <p class="texto-gris"></p>
+                            <div class="testi-content">
+                                <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
                                 <div class="testi-meta">
-                                    <span>Osman Orozco - <a class="texto-verde" target="_blank" href="http://petroleumblg.com">BLG Petroleum</a></span>
+                                    Collis Ta'eed
+                                    <span>Envato Inc.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="oc-item">
                         <div class="testimonial">
-                            <div class="testi-content mt-2">
-                                <p class="texto-gris"></p>
+                            <div class="testi-content">
+                                <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
                                 <div class="testi-meta">
-                                    <span>Angel Ramirez - <a class="texto-verde" target="_blank" href="http://jjcustomsolution.com">JJ Custom Solutions</a></span> 
+                                    Mary Jane
+                                    <span>Google Inc.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oc-item">
+                        <div class="testimonial">
+                            <div class="testi-content">
+                                <p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+                                <div class="testi-meta">
+                                    Steve Jobs
+                                <span>Apple Inc.</span>
                                 </div>
                             </div>
                         </div>

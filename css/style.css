@@ -1066,9 +1066,9 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
+	color: #fff;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -1155,7 +1155,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 #primary-menu ul ul li:first-child { border-top: 0; }
 
 #primary-menu ul ul li > a {
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: 700;
 	color: #666;
 	padding-top: 10px;
@@ -2016,11 +2016,11 @@ body.top-search-open #top-account { opacity: 0; }
 
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
-#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 60px; }
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 90px; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
-	padding-top: 19px;
-	padding-bottom: 19px;
+	padding-top: 35px;
+	padding-bottom: 15px;
 }
 
 #header.sticky-header:not(.static-sticky).sticky-style-2,
