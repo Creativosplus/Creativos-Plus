@@ -1,34 +1,29 @@
 @font-face {
-    font-family: "Open Sans";
+    font-family: "open sans";
     font-weight: 300;
     src: url('../fonts/OpenSans-Light.ttf');
 }
 
 @font-face {
-    font-family: "Open Sans";
+    font-family: "open sans";
     font-weight: 400;
     src: url('../fonts/OpenSans-Regular.ttf');
 }
 
-
 @font-face {
-    font-family: "Open Sans";
+    font-family: "open sans";
     font-weight: 700;
     src: url('../fonts/OpenSans-Bold.ttf');
 }
 
 /* Colores  */
- 
+
 .texto-verde {
     color: #24b35a !important;
 }
 
 .texto-blanco {
     color: #fff !important;
-}
-
-.texto-gris {
-    color: #999 !important;
 }
 
 .texto-azul {
@@ -53,11 +48,6 @@
 
 .btn-azul {
     background-color: #014e6c !important;
-}
-
-.button.button-3d:hover {
-    background-color: #014e6c !important;
-    opacity: 0.9;
 }
 
 .heading-block h2 {
@@ -85,6 +75,10 @@
 
 #trabajos .heading-block:after {
     border-top: 2px solid #24b35a !important;
+}
+
+#testimonios .heading-block {
+    margin-bottom: 0 !important;
 }
 
 #testimonios .heading-block:after {
@@ -146,7 +140,7 @@ label {
     display: inline-block !important;
     font-size: 15px !important;
     font-weight: 400 !important;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'open sans', sans-serif !important;
     text-transform: initial !important;
     letter-spacing: 1px !important;
     color: #fff !important;
@@ -154,6 +148,9 @@ label {
     cursor: initial !important;
 }
 
+.footer-big-contacts a:hover, #copyrights a:hover {
+    text-decoration: underline !important;
+}
 
 #copyrights {
     background-color: #014059 !important;
