@@ -173,18 +173,19 @@ label {
 /* fin tablets */
 
 /*owlcarrusel*/
-.fixBoton > .owl-nav [class*=owl-]:hover {
+
+#servicios .fixBoton > .owl-nav [class*=owl-]:hover {
 	background-color: transparent !important;
 }
 
-#oc-features .owl-item:not(.active) { opacity: .4; }
+#servicios #oc-features .owl-item:not(.active) { opacity: .4; }
 
-#oc-features .owl-item p {
+#servicios #oc-features .owl-item p {
 	font-size: 16px;
 	color: #999;
 }
 
-.owl-carousel-full .owl-nav [class*=owl-] {
+#servicios .owl-carousel-full .owl-nav [class*=owl-] {
 	left: 150px !important;
 	height: 60px;
 	line-height: 60px;
@@ -195,28 +196,28 @@ label {
 	border-radius: 0;
 }
 
-.owl-carousel .owl-nav .owl-next {
+#servicios .owl-carousel .owl-nav .owl-next {
 	left: auto;
 	right: -155px;
 }
 
-.owl-carousel-full  .owl-nav .owl-next {
+#servicios .owl-carousel-full  .owl-nav .owl-next {
 	left: auto !important;
 	right: 155px !important;
 	border-radius: 0;
 }
 
-.owl-carousel-full .owl-nav [class*=owl-]:hover { color: #333 !important; }
+#servicios .owl-carousel-full .owl-nav [class*=owl-]:hover { color: #333 !important; }
 
-.device-lg .owl-carousel .owl-nav .owl-prev,
-.device-md .owl-carousel .owl-nav .owl-prev,
-.device-sm .owl-carousel .owl-nav .owl-prev,
-.device-xs .owl-carousel .owl-nav .owl-prev { left: 2px !important; }
+#servicios .device-lg .owl-carousel .owl-nav .owl-prev,
+#servicios .device-md .owl-carousel .owl-nav .owl-prev,
+#servicios .device-sm .owl-carousel .owl-nav .owl-prev,
+#servicios .device-xs .owl-carousel .owl-nav .owl-prev { left: 2px !important; }
 
-.device-lg .owl-carousel-full  .owl-nav .owl-next,
-.device-md .owl-carousel-full  .owl-nav .owl-next,
-.device-sm .owl-carousel-full  .owl-nav .owl-next,
-.device-xs .owl-carousel .owl-nav .owl-next { right: 2px !important; }
+#servicios .device-lg .owl-carousel-full  .owl-nav .owl-next,
+#servicios .device-md .owl-carousel-full  .owl-nav .owl-next,
+#servicios .device-sm .owl-carousel-full  .owl-nav .owl-next,
+#servicios .device-xs .owl-carousel .owl-nav .owl-next { right: 2px !important; }
 
 /*testimonials*/
 .testimonials-carousel .owl-stage { padding-top: 40px !important }
