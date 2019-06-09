@@ -1,4 +1,4 @@
-#image-carousel { overflow: visible; }
+/*#image-carousel { overflow: visible; }
 
 #image-carousel .carousel-column {
 	display: flex;
@@ -54,4 +54,4 @@
 	border-radius: 5px;
 	background-color: rgba(38, 125, 244, 0.8);
 	background-color: rgba(var(--themecolorrgba), 0.8);
-}
+}*/

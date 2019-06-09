@@ -1,4 +1,4 @@
-.fixBoton > .owl-nav [class*=owl-]:hover {
+/*.fixBoton > .owl-nav [class*=owl-]:hover {
 	background-color: transparent !important;
 }
 
@@ -41,4 +41,4 @@
 .device-lg .owl-carousel-full  .owl-nav .owl-next,
 .device-md .owl-carousel-full  .owl-nav .owl-next,
 .device-sm .owl-carousel-full  .owl-nav .owl-next,
-.device-xs .owl-carousel .owl-nav .owl-next { right: 2px !important; }
+.device-xs .owl-carousel .owl-nav .owl-next { right: 2px !important; }*/

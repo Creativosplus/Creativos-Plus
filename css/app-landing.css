@@ -1,4 +1,4 @@
-#header-wrap > .container { border-bottom: 1px solid rgba(255,255,255,0.2); }
+/* #header-wrap > .container { border-bottom: 1px solid rgba(255,255,255,0.2); }
 
 #primary-menu > ul > li > a {
 	font-size: 15px;
@@ -78,4 +78,4 @@
 }
 
 #header.sticky-header:not(.static-sticky) #top-cart .top-cart-content,
-#header.sticky-header:not(.static-sticky) #primary-menu.sub-title.style-2 > div #top-cart .top-cart-content { top: 50px; }
+#header.sticky-header:not(.static-sticky) #primary-menu.sub-title.style-2 > div #top-cart .top-cart-content { top: 50px; }*/
