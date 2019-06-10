@@ -10154,7 +10154,7 @@ body:not(.device-touch) .team-overlay {
 	margin: 20px auto 25px auto;
 	content: '';
 	width: 15%;
-	border-top: 2px solid #444;
+	border-top: 2px solid #24A35B;
 	opacity: 0.9;
 }
 
@@ -11237,8 +11237,6 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 .heading-block > span:not(.before-heading) {
 	display: block;
 	margin-top: 10px;
-	font-weight: 300;
-	color: #777;
 }
 
 .heading-block .before-heading { margin-bottom: 7px; }
