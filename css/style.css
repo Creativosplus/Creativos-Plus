@@ -7580,12 +7580,12 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain.fbox-small .fbox-icon { width: 28px; }
 
 .feature-box.fbox-plain.fbox-small h3 {
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 26px;
 	margin-bottom: 10px;
 }
 
-.feature-box.fbox-plain.fbox-small p { margin-left: -42px; }
+.feature-box.fbox-plain.fbox-small p { margin-left: -42px; font-size: 16px; }
 
 .feature-box.fbox-plain.fbox-small .fbox-icon i { font-size: 28px; }
 
