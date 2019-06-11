@@ -1,93 +1,93 @@
 @font-face {
-    font-family: "open sans";
-    font-weight: 300;
-    src: url('../fonts/OpenSans-Light.ttf');
+   font-family: "open sans";
+   font-weight: 300;
+   src: url('../fonts/OpenSans-Light.ttf');
 }
 
 @font-face {
-    font-family: "open sans";
-    font-weight: 400;
-    src: url('../fonts/OpenSans-Regular.ttf');
+   font-family: "open sans";
+   font-weight: 400;
+   src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
-    font-family: "open sans";
-    font-weight: 700;
-    src: url('../fonts/OpenSans-Bold.ttf');
+   font-family: "open sans";
+   font-weight: 700;
+   src: url('../fonts/OpenSans-Bold.ttf');
 }
 
 /* Colores  */
 
 .texto-verde {
-    color: #24b35a !important;
+   color: #24b35a !important;
 }
 
 .texto-blanco {
-    color: #fff !important;
+   color: #fff !important;
 }
 
 .texto-azul {
-    color: #014e6c !important;
+   color: #014e6c !important;
 }
 
 .bg-azul {
-    background: #014e6c !important;
+   background: #014e6c !important;
 }
 
 .bg-verde {
-    background: #24b35a !important;
+   background: #24b35a !important;
 }
 
 .bg-blanco {
-    background: #ffffff !important;
+   background: #ffffff !important;
 }
 
 .btn-verde  {
-    background: #24b35a !important;
+   background: #24b35a !important;
 }
 
 .btn-azul {
-    background-color: #014e6c !important;
+   background-color: #014e6c !important;
 }
 
 .heading-block h2 {
-    text-transform: initial !important;
-    font-size: 28px !important;
-    font-weight: initial !important;
+   text-transform: initial !important;
+   font-size: 28px !important;
+	font-weight: initial !important;
 	letter-spacing: initial !important;
 }
 
 .heading-block h3 {
-    text-transform: initial !important;
-    font-size: 28px !important;
-    font-weight: initial !important;
+   text-transform: initial !important;
+   font-size: 28px !important;
+	font-weight: initial !important;
 	letter-spacing: initial !important;
 }
 
 #heading-block-1 .heading-block:after {
-    border-top: 2px solid #24b35a !important;
+   border-top: 2px solid #24b35a !important;
 }
 
 #servicios .heading-block:after {
-    border-top: 2px solid #24b35a !important;
+   border-top: 2px solid #24b35a !important;
 }
 
 
 #trabajos .heading-block:after {
-    border-top: 2px solid #24b35a !important;
+   border-top: 2px solid #24b35a !important;
 }
 
 #testimonios .heading-block {
-    margin-bottom: 0 !important;
+   margin-bottom: 0 !important;
 }
 
 #testimonios .heading-block:after {
-    border-top: 2px solid #24b35a !important;
+   border-top: 2px solid #24b35a !important;
 }
 
 .testi-meta:before {
-    content: '\2013';
-    color: #24B35A;
+   content: '\2013';
+   color: #24B35A;
 }
 
 #nosotros .heading-block:after {
@@ -126,14 +126,6 @@
 
 .feature-box .fbox-center:not(.fbox-bg) h3:after {
     border-top: none !important;
-}
-
-.rotarImg {
-    -moz-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
 }
 
 label {
