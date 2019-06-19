@@ -11,3 +11,17 @@ $(window).scroll(function(){
       $('.colorLink li a').css('color', '#666');
    }
 });
+
+$("#puto").click(function(){
+   Swal.fire({
+      type: 'success',
+      title: 'Excelente',
+      text: 'Gracias por contactarnos, en breve nos estaremos comunicando contigo.',
+      buttonsStyling: false,
+      confirmButtonText: '<i class="icon-line-arrow-right"></i><span>Continuar</span>',
+      focusConfirm: false,
+      customClass: {
+         confirmButton: 'mt-2 button btn-verde button-3d button-reveal tright button-large button-rounded'
+      }
+    });
+});
