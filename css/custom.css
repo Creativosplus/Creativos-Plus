@@ -1,19 +1,25 @@
 @font-face {
-   font-family: "open sans";
+   font-family: "Poppins";
    font-weight: 300;
-   src: url('../fonts/OpenSans-Light.ttf');
+   src: url('../fonts/Poppins-Light.ttf');
 }
 
 @font-face {
-   font-family: "open sans";
+   font-family: "Poppins";
    font-weight: 400;
-   src: url('../fonts/OpenSans-Regular.ttf');
+   src: url('../fonts/Poppins-Regular.ttf');
 }
 
 @font-face {
-   font-family: "open sans";
+   font-family: "Poppins";
+   font-weight: 500;
+   src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+   font-family: "Poppins";
    font-weight: 700;
-   src: url('../fonts/OpenSans-Bold.ttf');
+   src: url('../fonts/Poppins-Bold.ttf');
 }
 
 .texto-verde {
@@ -49,10 +55,11 @@
 }
 
 .heading-block h2 {
-   text-transform: initial !important;
+   text-transform: uppercase !important;
    font-size: 28px !important;
-	font-weight: initial !important;
+	font-weight: 500 !important;
 	letter-spacing: initial !important;
+	text-shadow: 11px 15px 20px rgba(102,102,102,0.45);
 }
 
 .heading-block h3 {
@@ -63,16 +70,16 @@
 }
 
 #heading-block-1 .heading-block:after {
-   border-top: 2px solid #24b35a !important;
+   border-top: initial;
 }
 
 #servicios .heading-block:after {
-   border-top: 2px solid #24b35a !important;
+   border-top: initial;
 }
 
 
 #trabajos .heading-block:after {
-   border-top: 2px solid #24b35a !important;
+   border-top: initial;
 }
 
 #testimonios .heading-block {
@@ -80,7 +87,7 @@
 }
 
 #testimonios .heading-block:after {
-   border-top: 2px solid #24b35a !important;
+   border-top: initial;
 }
 
 .testi-meta:before {
@@ -89,7 +96,7 @@
 }
 
 #nosotros .heading-block:after {
-   border-top: 2px solid #fff;
+   border-top: initial;
 }
 
 #promoBox1 .heading-block:after {
@@ -105,13 +112,18 @@
 }
 
 #footer .heading-block:after {
-   border-top: 2px solid #fff;
+   border-top: none;
 }
 
 .feature-box.fbox-center .fbox-icon i {
    font-size: 42px;
    line-height: 96px;
    background-color: #014e6c;
+}
+
+.feature-box h3 {
+	font-weight: 500 !important;
+	text-transform: uppercase !important;
 }
 
 .fbox-effect .fbox-icon i:hover, .fbox-effect:hover .fbox-icon i {
@@ -127,9 +139,9 @@
 }
 
 label {
-   font-size: 15px !important;
-   font-weight: 400 !important;
-   font-family: 'open sans', sans-serif !important;
+   font-size: 18px !important;
+   font-weight: 300 !important;
+   font-family: 'Poppins', sans-serif !important;
    text-transform: initial !important;
    letter-spacing: 1px !important;
    color: #fff !important;
@@ -170,8 +182,9 @@ label {
 #servicios #oc-features .owl-item:not(.active) { opacity: .4; }
 
 #servicios #oc-features .owl-item p {
-	font-size: 16px;
-	color: #999;
+	font-size: 20px;
+	font-weight: 300;
+	color: #888;
 }
 
 #servicios .owl-carousel-full .owl-nav [class*=owl-] {
@@ -238,8 +251,9 @@ label {
 .testi-content p {
 	text-align: center !important;
 	font-style: normal !important;
-	font-family: 'Open Sans' !important;
-	font-size: 15px !important;
+	font-family: 'Poppins' !important;
+	font-size: 16px !important;
+	color: #888;
 }
 
 .testi-meta {
@@ -254,7 +268,7 @@ label {
 	font-size: 15px;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-weight: 700 !important;
+	font-weight: 500 !important;
 	text-transform: capitalize;
 }
 

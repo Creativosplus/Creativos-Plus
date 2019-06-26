@@ -392,12 +392,8 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem !important;
-  color: #999;
-}
-
-.lead2 {
-  font-size: 1rem !important;
-  color: #999;
+  font-weight: 300;
+  color: #888;
 }
 
 .display-1 {
