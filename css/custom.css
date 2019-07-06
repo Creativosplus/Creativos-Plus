@@ -59,7 +59,7 @@
    font-size: 28px !important;
 	font-weight: 500 !important;
 	letter-spacing: initial !important;
-	text-shadow: 11px 15px 20px rgba(102,102,102,0.45);
+	text-shadow: 2px 5px 7px rgba(193,193,193,0.85);
 }
 
 .heading-block h3 {
@@ -71,6 +71,26 @@
 
 #heading-block-1 .heading-block:after {
    border-top: initial;
+}
+
+#nosotros .heading-block h2 {
+	text-shadow: initial !important;
+}
+
+#promoBox1 .heading-block h2 {
+	text-shadow: initial !important;
+}
+
+#promoBox2 .heading-block h2 {
+	text-shadow: initial !important;
+}
+
+#promoBox3 .heading-block h2 {
+	text-shadow: initial !important;
+}
+
+#footer .heading-block h2 {
+	text-shadow: initial !important;
 }
 
 #servicios .heading-block:after {
