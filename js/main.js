@@ -26,39 +26,16 @@ $("#puto").click(function(){
     });
 });
 
-// Codigo para Tabs de process steps
-    
-$(".paso2").click(function(){
-   $(".paso1").removeClass("active");
-   $(".paso2").addClass("active");
-});
-
-$(".paso3").click(function(){
-   $(".paso2").removeClass("active");
-   $(".paso3").addClass("active");
-});
-
-$(".paso4").click(function(){
-   $(".paso3").removeClass("active");
-   $(".paso4").addClass("active");
-});
-
-$(".paso1").click(function(){
-   $(".paso2, .paso3, .paso4").removeClass("active");
-   $(".paso1").addClass("active");
-});
-
-$(".paso2").click(function(){
-   $(".paso1, .paso3, .paso4").removeClass("active");
-   $(".paso2").addClass("active");
-});
-
-$(".paso3").click(function(){
-   $(".paso1, .paso2, .paso4").removeClass("active");
-   $(".paso3").addClass("active");
-});
-
-$(".paso4").click(function(){
-   $(".paso1, .paso2, .paso3").removeClass("active");
-   $(".paso4").addClass("active");
+$("#puto2").click(function(){
+   Swal.fire({
+      type: 'success',
+      title: 'Excellent',
+      text: 'Thank you for contacting us, we will be communicating with you shortly.',
+      buttonsStyling: false,
+      confirmButtonText: '<i class="icon-line-arrow-right"></i><span>Continue</span>',
+      focusConfirm: false,
+      customClass: {
+         confirmButton: 'mt-2 button btn-verde button-3d button-reveal tright button-large button-rounded'
+      }
+    });
 });
