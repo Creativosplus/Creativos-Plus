@@ -208,7 +208,7 @@ label {
 }
 
 #servicios .owl-carousel-full .owl-nav [class*=owl-] {
-	left: 150px !important;
+	left: 50px !important;
 	height: 60px;
 	line-height: 60px;
 	border: none;
@@ -216,11 +216,13 @@ label {
 	background-color: transparent;
 	font-size: 28px;
 	border-radius: 0;
+	margin-top: -70px;
+	padding-left: 100px;
 }
 
 #servicios .owl-carousel .owl-nav .owl-next {
 	left: auto;
-	right: -155px;
+	right: 55px;
 }
 
 #servicios .owl-carousel-full  .owl-nav .owl-next {
@@ -234,12 +236,12 @@ label {
 #servicios .device-lg .owl-carousel .owl-nav .owl-prev,
 #servicios .device-md .owl-carousel .owl-nav .owl-prev,
 #servicios .device-sm .owl-carousel .owl-nav .owl-prev,
-#servicios .device-xs .owl-carousel .owl-nav .owl-prev { left: 2px !important; }
+#servicios .device-xs .owl-carousel .owl-nav .owl-prev { left: 5px !important; }
 
 #servicios .device-lg .owl-carousel-full  .owl-nav .owl-next,
 #servicios .device-md .owl-carousel-full  .owl-nav .owl-next,
 #servicios .device-sm .owl-carousel-full  .owl-nav .owl-next,
-#servicios .device-xs .owl-carousel .owl-nav .owl-next { right: 2px !important; }
+#servicios .device-xs .owl-carousel .owl-nav .owl-next { right: 5px !important; }
 
 /*testimonials*/
 .testimonials-carousel .owl-stage { padding-top: 40px !important }
