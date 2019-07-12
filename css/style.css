@@ -6772,7 +6772,7 @@ body:not(.device-touch) .button.button-reveal span {
 	right: -26px;
 }
 
-.button.button-reveal.button-large { padding: 0 32px; }
+.button.button-reveal.button-large { padding: 0 70px; }
 
 .button.button-reveal.button-large i {
 	left: -38px;
@@ -6786,7 +6786,7 @@ body:not(.device-touch) .button.button-reveal span {
 	right: -38px;
 }
 
-.button.button-reveal.button-xlarge { padding: 0 40px; }
+.button.button-reveal.button-xlarge { padding: 0 80px; }
 
 .button.button-reveal.button-xlarge i {
 	left: -44px;
