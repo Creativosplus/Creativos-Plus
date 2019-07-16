@@ -1,4 +1,4 @@
-.logo {
+.logopreload {
    -webkit-animation-name: spinner; 
   -webkit-animation-timing-function: linear; 
   -webkit-animation-iteration-count: infinite; 
@@ -11,7 +11,14 @@
   -moz-transform-style: preserve-3d; 
   -ms-transform-style: preserve-3d; 
   transform-style: preserve-3d;
-  position: absolute;
+  position:fixed ;
+    left: 33.3%;
+    top: 200px;
+    width: 400px;
+    height: 350px;
+    z-index: 9999;
+  background: url('images/logos/prueba.png') 50% 50% no-repeat;
+	opacity: .8;
 }
 
 /* WebKit and Opera browsers */ @-webkit-keyframes spinner { 

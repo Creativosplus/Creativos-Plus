@@ -61,7 +61,7 @@
 
     <style>
 
-        .demos-filter {
+        /*.demos-filter {
             margin: 0;
             text-align: right;
         }
@@ -97,12 +97,61 @@
         #welcome_wrapper .tp-loader.spinner3{ background-color: #222222 !important; }
         video::-webkit-media-controls-start-playback-button{display:none !important;}
         .tc-gradient i:before{background:-webkit-linear-gradient(left,#2ed8a3 0%,#2970ff 100%); background-clip:text;-webkit-text-fill-color:transparent;}
-        .tc-btnshadow{-webkit-box-shadow:3px 5px 10px 0px rgba(0,0,0,0.2) !important;-moz-box-shadow:3px 5px 10px 0px rgba(0,0,0,0.2) !important;box-shadow:3px 5px 10px 0px rgba(0,0,0,0.2) !important}
+        .tc-btnshadow{-webkit-box-shadow:3px 5px 10px 0px rgba(0,0,0,0.2) !important;-moz-box-shadow:3px 5px 10px 0px rgba(0,0,0,0.2) !important;box-shadow:3px 5px 10px 0px rgba(0,0,0,0.2) !important}*/
+
+        .logopreload {
+   -webkit-animation-name: spinner; 
+  -webkit-animation-timing-function: linear; 
+  -webkit-animation-iteration-count: infinite; 
+  -webkit-animation-duration: 2s; 
+  animation-name: spinner; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+  animation-duration: 2s; 
+  -webkit-transform-style: preserve-3d; 
+  -moz-transform-style: preserve-3d; 
+  -ms-transform-style: preserve-3d; 
+  transform-style: preserve-3d;
+  position:fixed ;
+    left: 33.3%;
+    top: 200px;
+    width: 400px;
+    height: 350px;
+    z-index: 9999;
+    background: url('images/logos/prueba.png') 50% 50% no-repeat;
+    
+	opacity: .8;
+}
+
+/* WebKit and Opera browsers */ @-webkit-keyframes spinner { 
+  from 
+  { 
+      -webkit-transform: rotateY(0deg); 
+  } 
+  to { 
+      -webkit-transform: rotateY(-360deg); 
+  } 
+} /* all other browsers */ 
+@keyframes spinner { 
+  from { 
+      -moz-transform: rotateY(0deg); 
+      -ms-transform: rotateY(0deg); 
+      transform: rotateY(0deg); 
+  } 
+  to 
+  { 
+      -moz-transform: rotateY(-360deg); 
+      -ms-transform: rotateY(-360deg); 
+      transform: rotateY(-360deg); 
+  
+  } 
+}
 
     </style>
 
 </head>
-<body class="stretched">
+<div class="logopreload"></div>
+<body class="stretched no-transition">
     <header id="header" class="split-menu transparent-header">
         <div id="header-wrap">
             <div class="container clearfix">
@@ -964,6 +1013,12 @@
                 1200: { stagePadding: 200 }
             },
         });
+
+	$(window).ready(function() {
+        $(".logopreload").delay(4000).fadeOut("slow");
+    
+	});
+	
     </script>
     <script src="js/main.js"></script>
 </body>
