@@ -11,6 +11,7 @@
   -moz-transform-style: preserve-3d; 
   -ms-transform-style: preserve-3d; 
   transform-style: preserve-3d;
+  position: absolute;
 }
 
 /* WebKit and Opera browsers */ @-webkit-keyframes spinner { 
